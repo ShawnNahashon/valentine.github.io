@@ -108,20 +108,9 @@
     </style>
 </head>
 <body>
-    <!-- <audio id="bg-music" loop>
-        <source src="Bien_Chikwere.mp3" type="audio/mp3">
-    </audio> -->
-
-    <!-- <audio autoplay>
-        <source src="https://www.dropbox.com/scl/fi/v3owqn06jcw0wsze68ydu/Bien_Chikwere.mp3?rlkey=ggc1kpep9vkj9kmk76bsl59ed&raw=1" type="audio/mpeg">
-        Your browser does not support the audio tag.
-    </audio> -->
-    
-
-    <!-- <iframe src="https://drive.google.com/file/d/1YjRcSx3YC1moesG04QyqcfAxe9iVwAfn/preview" width="300" height="100" allow="autoplay"></iframe> -->
-
-    
-    
+    <audio id="bg-music" loop>
+        <source src="natti.mp3" type="audio/mp3">
+    </audio>
     <div class="countdown" id="countdown">3</div>
     <div class="message" id="message">Will you be my Valentine? ❤️ </div>
     <div class="buttons" id="buttons">
@@ -176,9 +165,7 @@
         }, 1000);
 
         function playMusic() {
-            // document.getElementById('bg-music').play();
-            let audio = new Audio("https://www.dropbox.com/scl/fi/v3owqn06jcw0wsze68ydu/Bien_Chikwere.mp3?rlkey=ggc1kpep9vkj9kmk76bsl59ed&raw=1");
-            audio.play();
+            document.getElementById('bg-music').play();
         }
     </script>
 </body>
